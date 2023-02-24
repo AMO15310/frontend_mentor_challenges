@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:#ffffff;
+    height: 100vh;
+    align-items: center;
+}
+.content{
+    display: flex;
+    background-color: #fff;
+    height: 50vh;
+    width: 40%;
+    align-items: center;
+    flex-direction: row;
+
+}
+.blue{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 100%;
+    width: 50%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.white{
+    background-color: #fcfcfc;
+    height: 100%;
+            border-bottom-right-radius: 25px;
+                        border-top-right-radius: 25px;
+                                    border-bottom-left-radius: 5px;
+                                                border-top-left-radius: 5px;
+            box-shadow: 6px 23px 29px 0px rgba(0, 0, 0, 0.42);
+            width: fit-content;
+            padding-left: 2rem;
+            padding-right: 2rem;
+}
+.result{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.summary{
+    display: flex;
+    justify-content: start;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.circle{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 10%;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),
+                hsla(241, 72%, 46%, 0));
+    
+    align-content: center;
+    
+}
+.seventy6{
+    display: flex;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+.of{
+    display: flex;
+    justify-content: center;
+    justify-self:center;
+    color: #fcfcfc;
+    align-self:center ;
+}
+.great{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 20%;
+    font-size: 16px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.reaction,.memory,.verbal,.visual{
+    height: 2.5rem;
+    width: 16rem;
+    margin-top: 1rem;
+    border:none ;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.reaction{
+    background-color: #fff6f5;
+    color: #cc7173;
+    text-indent: 20px;
+}
+.memory{
+    background-color: #fffbf2;
+    color: #f1c066;
+        text-indent: 20px;
+}
+.verbal{
+    background-color: #f2fbfa;
+    color: #3aa088;
+        text-indent: 20px;
+}
+.visual{
+    background-color: #f3f3fd;
+    color: #4c50bf;
+            text-indent: 20px;
+}
+.perc{
+    display: flex;
+    justify-content:flex-end;
+    color: rgb(99, 98, 98);
+    align-items:flex-end;
+    justify-self: end;
+    text-align: end;
+    text-indent: 100px;
+}
+.first{
+        text-indent: 80px !important;
+        display: flex;
+}
+.cont{
+    display: flex;
+    margin-top: 5rem;
+    width: 15rem;
+    height: 2.7rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    background-color: #303b59;
+    border: none;
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 900px) {
+    body {
+        height: fit-content;
+    }
+    .container {
+        flex-direction: column;
+        border-radius: 0;
+        box-shadow: none;
+        margin: 0;
+        justify-content: start;
+    }
+    .blue{
+        width: 100%;
+        border-radius: 0%;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        align-items: center;
+    }
+    .white{
+        width: 100%;
+    }
+    .content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .circle{
+        margin: 0;
+        margin-top: 2rem;
+    }
+}
