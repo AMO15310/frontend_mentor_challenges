@@ -29,8 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot1.jpg)
-![](./screenshot2.jpg)
+![](./screenshot1.png)
+![](./screenshot2.png)
+             
+
 
 
 ### Links
@@ -75,7 +77,7 @@ const beProudOfYourWork = () => {
 
 - Website - [AMOS WACHIRA](https://www.amo15310.github.io)
 - Frontend Mentor - [@AMO15310](https://www.frontendmentor.io/profile/AMO15310)
-- Twitter - [@yourusername](https://www.twitter.com/AMO15310)
+- Twitter - [@AMO15310](https://www.twitter.com/AMO15310)
 
 
 
