@@ -1,0 +1,73 @@
+.card {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  /* text-indent: 2rem; */
+}
+.img {
+  /* width: 1rem; */
+  margin-left: 2rem;
+  display: flex;
+  background-color: #ffffff;
+  gap: 1rem;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  /* background-color: blue; */
+}
+.company {
+  /* background-color: black; */
+
+  display: flex;
+}
+.photosnap {
+  color: #58a4a4;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.badge {
+  border-radius: 15px;
+}
+.new {
+  font-size: 18px;
+  height: 25px;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+.featured {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.name {
+  font-weight: 700;
+  font-size: large;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  gap: 1rem;
+}
+.ranks {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 15rem;
+  gap: 2rem;
+}
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+  background-color: hsl(180, 52%, 96%);
+  color: #58a4a4;
+  padding: 0.3rem;
+  border-radius: 5px;
+  font-weight: 700;
+}
